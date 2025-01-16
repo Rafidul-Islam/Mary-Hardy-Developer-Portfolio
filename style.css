@@ -1,284 +1,285 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/* page 1 styling starts here */
-.page1 {
-  background-image: url("images/header_bg.png");
-  background-size: 50%;
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-}
-/* Body Header section Styling */
-body header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1% 8% 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-header > h1 > span {
-  color: rgb(255, 106, 0);
-}
-header nav {
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-}
+@media screen and (min-width:577px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* page 1 styling starts here */
+  .page1 {
+    background-image: url("images/header_bg.png");
+    background-size: 50%;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  /* page1 Header section Styling */
+  .page1 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 8% 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header > h1 > span {
+    color: rgb(255, 106, 0);
+  }
+  header nav {
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
 
-header nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: larger;
-  font-weight: 600;
-}
-/* all the button styles */
-.primary-button {
-  padding: 10px;
-  font-size: 110%;
-  font-weight: 600;
-  border-radius: 5px;
-  border: none;
-  background-color:#ff9201;
-  cursor: pointer;
-}
-.primary-button :active {
-  opacity: 0.7;
-}
-nav > button :active {
-  opacity: 0.7;
-}
-/* page 1 main body section styling starts here */
-.page1 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 60px);
-  padding: 1% 8% 0;
-}
-.page1 .bio-section {
-  width: 40%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.bio h1 {
-  font-size: 350%;
-  margin: 5px 0px;
-}
-.bio h3 {
-  margin: 5px 0px;
-  font-size: 200%;
-}
-.bio p {
-  margin: 5px 0px 20px;
-  text-align: justify;
-}
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+  }
+  /* all the button styles */
+  .primary-button {
+    padding: 10px;
+    font-size: 110%;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9201;
+    cursor: pointer;
+  }
+  .primary-button :active {
+    opacity: 0.7;
+  }
+  nav > button :active {
+    opacity: 0.7;
+  }
+  /* page 1 main body section styling starts here */
+  .page1-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    padding: 1% 8% 0;
+  }
+  .page1 .bio-section {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bio h1 {
+    font-size: 350%;
+    margin: 5px 0px;
+  }
+  .bio h3 {
+    margin: 5px 0px;
+    font-size: 200%;
+  }
+  .bio p {
+    margin: 5px 0px 20px;
+    text-align: justify;
+  }
 
-.page1 .img-section {
-  width: 60%;
-  height: 100%;
-}
-.page1 .img-section img {
-  float: right;
-  height: 100%;
-}
+  .page1 .img-section {
+    width: 60%;
+    height: 100%;
+  }
+  .page1 .img-section img {
+    float: right;
+    height: 100%;
+  }
 
-/* page 2 starts here */
-.page2 {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container {
-  background-color: #ffdec6;
-  height: 70%;
-  width: 70%;
-}
-.container h1 {
-  text-align: center;
-  padding: 10% 0 2%;
-}
-.container > p {
-  text-align: center;
-  padding: 1% 7%;
-}
-.container .short-div {
-  /* border:1px solid black; */
-  padding: 4% 10%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+  /* page 2 starts here */
+  .page2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-color: #ffdec6;
+    height: 70%;
+    width: 70%;
+  }
+  .container h1 {
+    text-align: center;
+    padding: 10% 0 2%;
+  }
+  .container > p {
+    text-align: center;
+    padding: 1% 7%;
+  }
+  .container .short-div {
+    /* border:1px solid black; */
+    padding: 4% 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-.container .short-div .same-div {
-  text-align: center;
-}
-/* page3 styling starts here */
-.page3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 60vh;
-}
-.page3 h1 {
-  margin-bottom: 2%;
-}
-.page3 .card-container {
-  height: 70%;
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-.page3 .card-container .card {
-  width: 25%;
-  padding: 10px;
-  text-align: justify;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-}
-.card img,
-h5,
-p {
-  padding: 5px;
-}
-.card h5 {
-  font-size: 1rem;
-}
-/* page 4 styling starts here */
-.page4 {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.page4 > h1 {
-  text-align: center;
-  padding-bottom: 15px;
-}
-.page4 .sum {
-  /* border: 1px solid black; */
-  width: 70%;
-  height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffdec6;
-  border-radius: 5px;
-}
-.page4 .education,
-.experience {
-  width: 50%;
-  height: 100%;
+  .container .short-div .same-div {
+    text-align: center;
+  }
+  /* page3 styling starts here */
+  .page3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+  }
+  .page3 h1 {
+    margin-bottom: 2%;
+  }
+  .page3 .card-container {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .page3 .card-container .card {
+    width: 25%;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  .card img,
+  h5,
+  p {
+    padding: 5px;
+  }
+  .card h5 {
+    font-size: 1rem;
+  }
+  /* page 4 styling starts here */
+  .page4 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .page4 > h1 {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .page4 .sum {
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffdec6;
+    border-radius: 5px;
+  }
+  .page4 .education,
+  .experience {
+    width: 50%;
+    height: 100%;
 
-  padding: 20px;
-}
-.page4 .education > .description {
-  width: 100%;
-  height: 31.5%;
-}
-.page4 .experience > .description {
-  width: 100%;
-  height: 31.5%;
-}
-.page4 .description h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
-  padding: 5px 0 5px 0;
-}
-.page4 .description h3 {
-  font-size: 0.9 rem;
-  padding: 20px 0px 1px;
-}
-.page4 .description p {
-  padding-left: 0;
-  font-size: 0.8rem;
-}
-/* page4 cv Button  */
-.cv-btn {
-  text-align: center;
-  padding: 20px;
-  margin-top:40px;
+    padding: 20px;
+  }
+  .page4 .education > .description {
+    width: 100%;
+    height: 31.5%;
+  }
+  .page4 .experience > .description {
+    width: 100%;
+    height: 31.5%;
+  }
+  .page4 .description h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 5px 0 5px 0;
+  }
+  .page4 .description h3 {
+    font-size: 0.9 rem;
+    padding: 20px 0px 1px;
+  }
+  .page4 .description p {
+    padding-left: 0;
+    font-size: 0.8rem;
+  }
+  /* page4 cv Button  */
+  .cv-btn {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  /* footer and page5 styling here */
+  footer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .page5 {
+    background-color: #ffdec6;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  .page5 .outro,
+  .form {
+    height: 100%;
+    width: 50%;
+  }
+  .page5 .outro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+  }
+  .page5 .outro p {
+    padding: 0;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .page5 .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .page5 .form h1 {
+    margin-bottom: 5%;
+  }
+  .page5 input[type="text"] {
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  .page5 input[type="email"] {
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  textarea {
+    width: 80%;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+  }
+  textarea::placeholder {
+    padding: 15px 10px;
+  }
 
+  /* styling end here */
 }
-/* footer and page5 styling here */
-footer {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.page5 {
-  background-color: #ffdec6;
-  height: 80%;
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 5px;
-}
-.page5 .outro,
-.form {
-  height: 100%;
-  width: 50%;
-}
-.page5 .outro {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10%;
-}
-.page5 .outro p {
-  padding: 0;
-  margin-top: 5%;
-  text-align: center;
-}
-.page5 .form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.page5 .form h1 {
-  margin-bottom: 5%;
-}
-.page5 input[type="text"] {
-  width: 80%;
-  padding: 15px 10px;
-  border-radius: 5px;
-  border: none;
-}
-.page5 input[type="email"] {
-  width: 80%;
-  padding: 15px 10px;
-  border-radius: 5px;
-  border: none;
-}
-textarea {
-  width: 80%;
-  resize: none;
-  border: none;
-  border-radius: 5px;
-}
-textarea::placeholder {
-  padding: 15px 10px;
-}
-
-/* styling end here */

@@ -1,0 +1,232 @@
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .page1 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 6%;
+  }
+  .page1 header h1 {
+    font-size: 1.6rem;
+  }
+
+  .page1 header nav {
+  }
+
+  .page1 header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .page1 header nav li {
+  }
+
+  .page1 header nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .page1 {
+    width: calc(100vw - 3.4%);
+    height: auto;
+    /* border: 1px solid black; */
+  }
+  .page1-main {
+    /* border: 1px solid black; */
+    padding: 2% 6%;
+    background-image: url("images/header_bg.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-clip: content-box;
+    flex-wrap: wrap-reverse;
+  }
+  .page1-main .bio-section {
+    /* border: 2px solid red; */
+  }
+  .page1-main .bio-section .bio h1 {
+    font-size: 3rem;
+  }
+  .page1-main .bio-section .bio h3 {
+    font-size: 2rem;
+  }
+  .page1-main .bio-section .bio button {
+    margin: 10px 0px;
+  }
+  .page1-main .img-section {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page1-main .img-section img {
+    width: 60%;
+  }
+
+  /* Shared Button */
+  .primary-button {
+    padding: 10px 20px;
+    font-size: 100%;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9201;
+    cursor: pointer;
+  }
+
+  /* Page2  styling starts here */
+  .page2,
+  .page3,
+  .page4 {
+    width: calc(100vw - 3.4%);
+    padding: 2% 6%;
+  }
+  .page2 .container {
+    background-color: #ffdec6;
+    border-radius: 10px;
+  }
+  .container > h1 {
+    text-align: center;
+    padding: 10px;
+  }
+  .container > p {
+    text-align: center;
+    padding: 0px 20px 5px;
+  }
+  .container .short-div {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4% 2%;
+  }
+  .container .short-div .same-div {
+    font-size: 0.7rem;
+    color: #6f6666;
+    font-weight: 600;
+  }
+
+  /* page3 styling starts here */
+  .page3 h1 {
+    margin: 20px 0 10px 0;
+  }
+  .card-container {
+  }
+  .card {
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .card h5 {
+    font-size: 1.2rem;
+    padding: 5px 0;
+  }
+  .card .border-radius {
+    border-radius: 5px;
+  }
+
+  /* Page4 styling starts here */
+  .page4 > h1 {
+    padding: 10px 0 5px;
+    /* text-decoration: underline; */
+    /* font-size: 1.3rem; */
+  }
+  .sum {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+  }
+  .sum .education > p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .description {
+    padding: 10px 0 10px 0;
+    line-height: 1.4;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+    background-color: #ffdec6;
+    padding: 5px;
+    margin: 0 0 10px;
+  }
+  .description h3 {
+    font-size: 1.4rem;
+  }
+  .description h1 {
+    font-size: 1.1rem;
+  }
+  .description p {
+    padding: 5px 0;
+    line-height: 1.1;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(68, 64, 64);
+  }
+
+  .sum .experience > p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  .experience {
+    padding: 10px 0 10px;
+    line-height: 1.4;
+    margin-top: 5px;
+  }
+  .experience h3 {
+    font-size: 1.4rem;
+  }
+  .experience h1 {
+    font-size: 1.1rem;
+  }
+
+  .sum .experience > p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .cv-btn {
+    padding: 2% 6%;
+    text-align: center;
+  }
+  .primary-button{
+    font-weight: 600;
+  }
+  footer .page5{
+    margin: 2% 6%;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #ffdec6;
+  }
+  footer .page5 .outro{
+    padding:0px 0px 20px;
+  }
+  footer .page5 .form input,textarea{
+    width:calc(100% - 3%);
+    border:none;
+    margin:5px;
+    padding:10px;
+    resize: none;
+  }
+
+
+
+}
+
