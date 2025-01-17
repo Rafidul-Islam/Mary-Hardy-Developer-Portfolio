@@ -1,4 +1,4 @@
-@media screen and (min-width:577px) {
+@media screen and (min-width: 577px) {
   * {
     margin: 0;
     padding: 0;
@@ -7,12 +7,12 @@
   }
   /* page 1 styling starts here */
   .page1 {
-    background-image: url("images/header_bg.png");
-    background-size: 50%;
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-size: 50%, 6%;
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, 10px 10px;
   }
   /* page1 Header section Styling */
   .page1 header {
